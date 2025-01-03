@@ -7,5 +7,5 @@ def selection_sort(arr):
                 min_index = j
         arr[i], arr[min_index] = arr[min_index], arr[i]
     return arr
-arr = [64, 25, 12, 22, 11]
+arr = [64, 25, 12, 22, 11]                              
 print(selection_sort(arr))  
