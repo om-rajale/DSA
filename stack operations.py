@@ -3,7 +3,7 @@ def push():
     elements=input("add elements:")
     stack.append(elements)
     print(stack)
-def pop():
+def pop(): 
     if not stack:
         print("stack is empty")
     else:
