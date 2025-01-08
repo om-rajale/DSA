@@ -3,7 +3,7 @@ class Node:
         self.data = data
         self.ref = None
 class Linkedlist:
-    def __init__(self):
+    def __init__(self): 
         self.head = None 
         
     def print_LL(self):
