@@ -5,7 +5,7 @@ def selection_sort(arr):
         for j in range(i + 1, n):
             if arr[j] < arr[min_index]:
                 min_index = j
-        arr[i], arr[min_index] = arr[min_index], arr[i]
+        arr[i], arr[min_index] = arr[min_index], arr[i] 
     return arr
 arr = [64, 25, 12, 22, 11]                              
 print(selection_sort(arr))  
