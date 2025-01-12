@@ -5,7 +5,7 @@ class Node:
 class Linkedlist:
     def __init__(self): 
         self.head = None 
-        
+         
     def print_LL(self):
         if self.head == None:
             print('linkedlist is empty')
