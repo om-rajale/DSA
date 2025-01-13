@@ -14,7 +14,7 @@ while True:
     choice = int(input("enter choice 1.push,2.pop.3.quit"))
     if choice==1:
         push()
-    elif choice==2:
+    elif choice==2: 
         pop()
     elif choice==3:
         break
