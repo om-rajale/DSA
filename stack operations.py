@@ -4,7 +4,7 @@ def push():
     stack.append(elements)
     print(stack)
 def pop(): 
-    if not stack:
+    if not stack:     
         print("stack is empty")
     else:
         d = stack.pop()
